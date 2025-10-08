@@ -1,11 +1,9 @@
 # Intelligent Biomanufacturing System for Bio-based Polyamide PA54
 
 ## Overview
-This project focuses on the **green synthesis and intelligent process monitoring of bio-based polyamide PA54**, integrating enzyme engineering, metabolic regulation, and automated detection.  
-In the enzyme engineering module, key substrate-interacting residues were identified through molecular docking, and a **generative deep learning model based on MPNN-GNN feature extraction** was developed to predict the effects of mutations on lysine decarboxylase (CadA) catalytic performance. Site-directed mutagenesis and activity screening yielded improved enzyme variants.  
-At the metabolic level, an **environment-responsive enzyme release system** was designed using A-IDP encapsulation of CadA, which can be activated on demand via protease cleavage. A **kinetic mathematical model based on ordinary differential equations (ODEs)** was constructed to describe the entire process from signal sensing to product formation, enabling prediction of enzyme release timing and production rate.  
-For process control, an **ESP32-based automated sampling and detection platform** was developed to achieve periodic sampling, on-line dilution, and enzyme-electrode concentration detection. The data are transmitted wirelessly to a local server and visualized through a web interface, realizing unmanned and digital monitoring.  
-The overall workflow achieves a closed-loop optimization from enzyme design to fermentation control, providing an integrated framework for efficient synthesis and intelligent manufacturing of bio-based materials.
+Bio-based polyamide PA54, derived from lysine and succinate, is a sustainable polymer with broad market potential. However, during continuous fermentation, the dynamic fluctuations of key metabolites such as lysine and cadaverine significantly affect both yield and process stability. Conventional manual sampling and measurement methods are labor-intensive, hindering continuous monitoring and precise control, thereby limiting process optimization and efficient product formation.
+
+In this project, we designed a dry-lab platform to support experimental work, integrating enzyme engineering, metabolic regulation, and ODE-based modeling, along with an automated detection device. In the dry-lab studies, molecular simulations and deep learning predictions were used to optimize the catalytic performance of lysine decarboxylase (CadA). In the wet-lab experiments, these designs were applied to actual fermentation systems to validate the effect of engineered enzymes on product formation. To facilitate the experimental workflow, an ESP32-based automated sampling and concentration analysis system was developed, enabling periodic sampling, online dilution, real-time data upload, and remote monitoring and visualization via a web interface.
 
 ## System Components
 The project consists of the following five core modules:  
